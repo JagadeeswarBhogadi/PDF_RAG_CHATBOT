@@ -1,0 +1,45 @@
+# -----------------------------
+# 🧠 Core Deep Learning
+# -----------------------------
+
+
+# -----------------------------
+# ⚡ LangChain Ecosystem
+# -----------------------------
+# -----------------------------
+langchain==0.3.7
+langchain-community==0.3.2
+langchain-text-splitters==0.3.0
+
+# -----------------------------
+# 📘 PDF + Text Handling
+# -----------------------------
+pypdf==4.2.0
+pdfminer.six==20231228
+
+# -----------------------------
+# 🧩 Vector Store
+# -----------------------------
+faiss-cpu==1.8.0.post1
+
+# -----------------------------
+# 🤗 Hugging Face & Transformers
+# -----------------------------
+transformers==4.46.1
+sentence-transformers==3.1.0
+accelerate==0.33.0
+bitsandbytes==0.43.3  # Optional — GPU quantization; can remove if error occurs
+
+# -----------------------------
+# 🔧 Utilities
+# -----------------------------
+tqdm==4.66.5
+numpy
+scipy==1.14.1
+pandas==2.2.3
+
+# -----------------------------
+# 🧠 Model Hub + Vector DB
+# -----------------------------
+huggingface-hub==0.25.2
+chromadb==0.5.11

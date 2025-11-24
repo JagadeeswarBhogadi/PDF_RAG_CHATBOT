@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+chroma_db/
+offload_weights/
+*.pdf
+*.db
+.DS_Store
